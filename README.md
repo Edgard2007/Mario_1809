@@ -1,6 +1,6 @@
 # Creative React Site
 
-Pequeno site criado em React com CSS puro. Projeto pensado para deploy rápido no Vercel (ou qualquer hosting estático que suporte builds do Vite).
+Pequeno site criado em React com CSS puro. Projeto feito na pressa, porque eu esqueci que a entrega era hoje
 
 ## Estrutura
 
@@ -29,9 +29,4 @@ Pequeno site criado em React com CSS puro. Projeto pensado para deploy rápido n
    npm run preview
    ```
 
-## Como hospedar no Vercel (passo a passo)
 
-1. Crie um repositório no GitHub e envie o projeto.
-2. No Vercel, clique em New Project → importe do GitHub → selecione o repositório.
-3. Build Command: npm run build. Output Directory: dist.
-4. Clique em Deploy. O Vercel fornecerá um link do tipo https://seu-projeto.vercel.app.
