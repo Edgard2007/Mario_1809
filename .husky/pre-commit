@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# Run our script to fix permissions before every commit
+node fix-permissions.js
+
+# Then, proceed to add any changes (like the fixed files) to the commit
+git add .
